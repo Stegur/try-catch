@@ -1,6 +1,5 @@
-// TODO: write your code here
-import sum from './basic';
+import counter from './counter';
 
-console.log('worked');
-
-console.log(sum([1, 2]));
+console.log(counter(10));
+console.log(counter('15 штук'));
+console.log(counter('some'));
